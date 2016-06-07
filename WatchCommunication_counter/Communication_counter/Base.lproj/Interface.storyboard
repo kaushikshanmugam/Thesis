@@ -16,9 +16,11 @@
                                 <action selector="SendDataToPhone" destination="AgC-eL-Hgc" id="4DZ-Rx-yuV"/>
                             </connections>
                         </button>
+                        <label width="136" alignment="left" text="Label" id="tRc-eC-1Ni"/>
                     </items>
                     <connections>
                         <outlet property="label" destination="dsd-BC-SRc" id="fQs-TQ-ddt"/>
+                        <outlet property="labelTimer" destination="tRc-eC-1Ni" id="q46-SK-she"/>
                     </connections>
                 </controller>
             </objects>

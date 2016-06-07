@@ -13,6 +13,7 @@ import WatchConnectivity
 
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
+    @IBOutlet var labelTimer: WKInterfaceLabel!
     //Communication session
     
     let session = WCSession.defaultSession()
@@ -47,7 +48,23 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     @IBAction func SendDataToPhone() {
         //Send data to iPhone
         let msg = ["CounterValueFromWatch" : watchCounter++]
-        session.sendMessage(msg, replyHandler: nil, errorHandler: nil)
+        let start = NSDate()
+        session.sendMessage(msg, replyHandler: {(replay) -> Void in
+            let end = NSDate()
+            let timeInterval:Double = end.timeIntervalSinceDate(start)
+            //Display time interval
+            self.labelTimer.setText("Time: \(timeInterval)")
+            print(timeInterval)
+            
+            })
+            
+        {(error) -> Void in
+            let end = NSDate()
+            let timeInterval: Double = end.timeIntervalSinceDate(start)
+            //Display time interval
+            self.labelTimer.setText("Time:\(timeInterval)")
+            print(timeInterval)
+        }
         
         
     }
