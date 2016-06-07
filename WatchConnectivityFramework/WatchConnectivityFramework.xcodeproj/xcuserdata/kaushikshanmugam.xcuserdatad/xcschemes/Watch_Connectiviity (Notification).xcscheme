@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+               BuildableName = "Watch_Connectiviity.app"
+               BlueprintName = "Watch_Connectiviity"
+               ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3917EBA21D01A37D00454B4C"
+               BuildableName = "WatchConnectivityFramework.app"
+               BlueprintName = "WatchConnectivityFramework"
+               ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3917EBC51D01A63B00454B4C"
+               BuildableName = "Watch_Connectiviity Extension.appex"
+               BlueprintName = "Watch_Connectiviity Extension"
+               ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+            BuildableName = "Watch_Connectiviity.app"
+            BlueprintName = "Watch_Connectiviity"
+            ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Watch_Connectiviity Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WatchConnectivityFramework">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+            BuildableName = "Watch_Connectiviity.app"
+            BlueprintName = "Watch_Connectiviity"
+            ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+            BuildableName = "Watch_Connectiviity.app"
+            BlueprintName = "Watch_Connectiviity"
+            ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Watch_Connectiviity Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WatchConnectivityFramework">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+            BuildableName = "Watch_Connectiviity.app"
+            BlueprintName = "Watch_Connectiviity"
+            ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3917EBB91D01A63B00454B4C"
+            BuildableName = "Watch_Connectiviity.app"
+            BlueprintName = "Watch_Connectiviity"
+            ReferencedContainer = "container:WatchConnectivityFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
